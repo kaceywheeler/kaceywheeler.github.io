@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encryptrix Password Cracking</title>
+  <link rel="stylesheet" href="style.css">
+  <script scr="hash.js"></script>
+</head>
+<body>
+    <h1 class="center">Password Cracking!</h1>
+    <p id="msg">Password Hashing:</p>
+    <form id="hashForm" method="post">
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password"><br>
+        <label for="function">Hash Function:</label><br>
+        <select name="function" id="function">
+            <option value="md5">md5</option>
+            <option value="sha1">sha1</option>
+            <option value="sha512">sha512</option>
+        </select>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

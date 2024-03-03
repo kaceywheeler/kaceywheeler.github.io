@@ -11,7 +11,7 @@ async function sendData() {
     const formData = new FormData(form);
 
     try {
-        const response = await fetch("file:///C:/Users/kacey/Documents/workspace/index.html", {
+        const response = await fetch("https://kaceywheeler.github.io", {
             method: "POST",
             body: formData,
         });
